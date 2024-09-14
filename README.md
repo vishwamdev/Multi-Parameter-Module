@@ -28,12 +28,12 @@ This project involves the development of an IoT-based real-time monitoring syste
 * **Date & Time Display**: Adding functionality to display the current date and time.
 * **Current Measurement**: Additional sensors for accurate current measurements.
 # Project Mechanism
-The system uses an Arduino UNO as the core microcontroller. Various sensors are connected to the Arduino to measure parameters like temperature, humidity, pressure, altitude, voltage, and current. The HX1230 LCD is used to display these parameters, and two push buttons are provided to shift among the different displayed values. Data is transmitted to ThingSpeak for visualization, providing users with real-time graphs and insights.
+The system uses an ESP32 as the core microcontroller. Various sensors are connected to the ESP32 to measure parameters like temperature, humidity, pressure, altitude, voltage, and current. The HX1230 LCD is used to display these parameters, and two push buttons are provided to shift among the different displayed values. Data is transmitted to ThingSpeak for visualization, providing users with real-time graphs and insights.
 
 
 # How to Use
-1) Connect the Components: Follow the circuit diagram provided in the repository to connect all sensors and the display to the Arduino UNO.
-2) Upload the Code: Use the Arduino IDE to upload the code to the Arduino UNO board.
+1) Connect the Components: Follow the circuit diagram provided in the repository to connect all sensors and the display to the ESP32.
+2) Upload the Code: Use the Arduino IDE to upload the code to the ESP32 microcontroller.
 3) View Real-Time Data: Monitor the parameters on the HX1230 LCD and observe the real-time graphs on ThingSpeak.
 
 **You can view real-time data from the system on the ThingSpeak channel here**: _https://thingspeak.com/channels/2624710_
