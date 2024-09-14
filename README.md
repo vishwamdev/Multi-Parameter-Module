@@ -1,5 +1,5 @@
 # IoT Based Multi-Parameter Module (MPM)
-This project involves the development of an IoT-based real-time monitoring system using an Arduino UNO microcontroller. The system is designed to measure various environmental and electrical parameters and send the data to ThingSpeak for visualization with real-time graphs.
+This project involves the development of an IoT-based real-time monitoring system using an ESP32 microcontroller. The system is designed to measure various environmental and electrical parameters and send the data to ThingSpeak for visualization with real-time graphs.
 
 # Components Used
 * __Microcontroller__: ESP32
