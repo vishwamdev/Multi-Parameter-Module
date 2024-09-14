@@ -2,7 +2,7 @@
 This project involves the development of an IoT-based real-time monitoring system using an Arduino UNO microcontroller. The system is designed to measure various environmental and electrical parameters and send the data to ThingSpeak for visualization with real-time graphs.
 
 # Components Used
-* __Microcontroller__: Arduino UNO
+* __Microcontroller__: ESP32
 * **Display**: HX1230 LCD
 * __Sensors__:
   * BMP280 Sensor _(Temperature, Humidity, Pressure, Altitude)_
